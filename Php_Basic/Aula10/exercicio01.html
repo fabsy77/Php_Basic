@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../_css/style.css" />
+    <style>
+        input[type="number"]{
+            width: 70px;
+        }
+        input[type="submit"]{
+            background-color: #9392ed;
+            color: #fff;
+            padding: 10px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form method="get" action="exercicio01.php">
+            Numero : <input type="number"name="num"><br/>
+            <fieldset><legend>Operacao</legend>
+                <input type="radio" name="oper" value="1" id="dobro" checked> <!-- dobro resposta padrao-->
+                <label for="dobro">Dobro</label>
+                <input type="radio" name="oper" value="2" id="cubo">
+                <label for="cubo">cubo</label>
+                <input type="radio" name="oper" value="3" id="raiz">
+                <label for="raiz">Raiz Quadrada</label>
+            </fieldset>
+
+        
+            <input type="submit" value="Calcular ">
+        </form>
+    </div>
+</body>
+</html>

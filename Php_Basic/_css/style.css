@@ -1,0 +1,80 @@
+body {
+	margin: 0;
+	background-color: #0080ff;
+}
+
+.container {
+	width: 100%;
+	max-width: 1280px;
+	display: flex;
+
+}
+
+.logoPhp{
+	width: 290px;
+	height: 615px;
+
+}
+
+.imagePhp{
+	height: 135px;
+	padding-top: 20px;
+}
+
+.imagePhp img{
+	width: 210px;
+	margin-left: 35px;
+}
+
+.autor {
+	margin-left: 20px;
+	color: #6699FF;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.conteudo {
+	width: 100%;
+	max-width: 700px;
+	
+}
+
+.conteudoInt {
+	width: 660px;
+	margin: auto;
+	height: 370px;
+	background-color: #C0C0C0;
+	margin-top: 122px;
+}
+
+.title_lege {
+	height: 30px;
+	line-height: 30px;
+	font-size: 15px;
+	color: #FFF;
+	font-weight: bold;
+	background-color: #192649;
+	padding-left: 15px;
+}
+
+.cont_php {
+	margin: 10px 10px;
+}
+
+.cont_site {
+	width: 290px;
+	height: 615px;
+}
+
+.url {
+	width: 275px;
+	height: 135px;
+	padding-top: 20px;
+	font-size: 25px;
+	margin-left: 30px;
+}
+
+.url a {
+	color: #777bb3;
+	text-decoration: none;
+}
